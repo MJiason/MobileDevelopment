@@ -11,9 +11,4 @@
         android:icon="@drawable/tab"
         android:title="@string/title_dashboard" />
 
-    <item
-        android:id="@+id/navigation_notifications"
-        android:icon="@drawable/tab6"
-        android:title="@string/title_notifications" />
-
 </menu>

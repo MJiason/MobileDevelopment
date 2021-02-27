@@ -13,9 +13,9 @@
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="ua.kpi.comsys.io8214.mobileapp.ui.dashboard.DashboardFragment"
+        android:name="ua.kpi.comsys.io8214.mobileapp.ui.charts.Chart1Fragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_chart1" />
 
     <fragment
         android:id="@+id/navigation_notifications"

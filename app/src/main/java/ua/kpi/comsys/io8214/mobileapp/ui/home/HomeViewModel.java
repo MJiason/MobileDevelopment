@@ -42,11 +42,11 @@ public class HomeViewModel extends ViewModel {
             ex = exception.getMessage();
         }
 
-        mText.setValue(timeMN1.getTime() + " - " + timeMN2.getTime() + " = " + timeMN12.getTime() + "\n"
-                + timeMN3.getTime() + " + " + timeMN4.getTime() + " = " + timeMN34.getTime() + "\n"
-                + timeMN5.getTime() + " + " + timeMN6.getTime() + " = " + timeMN56.getTime() + "\n"
-                + timeMN7.getTime() + " - " + timeMN8.getTime() + " = " + timeMN78.getTime() + "\n"
-                + "Exception message: " + ex);
+//        mText.setValue(timeMN1.getTime() + " - " + timeMN2.getTime() + " = " + timeMN12.getTime() + "\n"
+//                + timeMN3.getTime() + " + " + timeMN4.getTime() + " = " + timeMN34.getTime() + "\n"
+//                + timeMN5.getTime() + " + " + timeMN6.getTime() + " = " + timeMN56.getTime() + "\n"
+//                + timeMN7.getTime() + " - " + timeMN8.getTime() + " = " + timeMN78.getTime() + "\n"
+//                + "Exception message: " + ex);
     }
 
     public LiveData<String> getText() {
