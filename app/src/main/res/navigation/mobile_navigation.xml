@@ -18,8 +18,8 @@
         tools:layout="@layout/fragment_chart1" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="ua.kpi.comsys.io8214.mobileapp.ui.notifications.NotificationsFragment"
+        android:id="@+id/navigation_films"
+        android:name="ua.kpi.comsys.io8214.mobileapp.ui.films.FilmsFragment"
         android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_film" />
 </navigation>

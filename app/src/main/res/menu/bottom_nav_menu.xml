@@ -10,5 +10,9 @@
         android:id="@+id/navigation_dashboard"
         android:icon="@drawable/tab"
         android:title="@string/title_dashboard" />
+    <item
+        android:id="@+id/navigation_films"
+        android:icon="@android:drawable/presence_video_online"
+        android:title="Films"></item>
 
 </menu>
