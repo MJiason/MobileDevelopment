@@ -1,4 +1,4 @@
-package ua.kpi.comsys.io8214.mobileapp;
+package ua.kpi.comsys.io8214.mobileapp.dao;
 
 //{"Title":"Star Wars: Episode IV - A New Hope Star Wars: Episode IV - A New Hope ",
 //        "Year":"1977"
@@ -13,7 +13,7 @@ public class Film {
     private String Year;
     private String imdbID;
     private String Type;
-    private String Poster;
+    private String Poster ;
 
     public Film(String title, String year, String imdbID, String type, String poster) {
         Title = title;
@@ -23,6 +23,11 @@ public class Film {
         Poster = poster;
     }
 
+    public Film(String title, String year, String type) {
+        Title = title;
+        Year = year;
+        Type = type;
+    }
 
     public String getTitle() {
         return Title;

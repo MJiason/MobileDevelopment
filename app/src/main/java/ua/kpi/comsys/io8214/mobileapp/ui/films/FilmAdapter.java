@@ -13,9 +13,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import java.util.ArrayList;
-import java.util.List;
 
-import ua.kpi.comsys.io8214.mobileapp.Film;
+import ua.kpi.comsys.io8214.mobileapp.dao.Film;
 import ua.kpi.comsys.io8214.mobileapp.R;
 
 public class FilmAdapter extends ArrayAdapter<Film> {
