@@ -21,5 +21,11 @@
         android:id="@+id/navigation_films"
         android:name="ua.kpi.comsys.io8214.mobileapp.ui.films.FilmsFragment"
         android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_film" />
+        tools:layout="@layout/films_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_images"
+        android:name="ua.kpi.comsys.io8214.mobileapp.ui.images.ImageFragment"
+        android:label="Tab 3"
+        tools:layout="@layout/images_fragment" />
 </navigation>
